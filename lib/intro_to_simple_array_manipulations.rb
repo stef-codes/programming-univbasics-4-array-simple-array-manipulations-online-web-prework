@@ -64,16 +64,12 @@ end
 # insert method ---failed
 def using_insert(array,element)
   
-  la_icons = ["KDot","Pac","Snoop","Hussle","Pac"]
-  
   array.insert(4,element)
 
 end
 
 # uniq method ---passed
 def using_uniq(array)
-  
-  la_icons = ["KDot","Pac","Snoop","Hussle","Pac"]
   
   array.uniq
 
@@ -87,8 +83,6 @@ end
 
 # delete method ---passed
 def using_delete(array,string)
-  
-  la_icons = ["KDot","Pac","Snoop","Hussle","Pac"]
   
   array.delete(string)
 
