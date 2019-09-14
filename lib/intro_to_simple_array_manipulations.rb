@@ -57,8 +57,6 @@ def using_concat(la_icons,songs)
   
   we_da_best = la_icons.concat(songs)
   
-  p we_da_best
-  
 end 
 
 # insert method ---failed
