@@ -85,9 +85,9 @@ def using_flatten(array)
   
   songs = ["GKMC","Motivate","Doggystyle"]
   
-  icons_and_songs = [la_icons,songs]
+  array = [la_icons,songs]
   
-  icons_and_songs.flatten
+  array.flatten
   
 end 
 
