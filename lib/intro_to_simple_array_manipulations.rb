@@ -1,16 +1,12 @@
 # push method
 def using_push(array,string)
   
-  la_icons = ["KDot","Pac","Snoop","Hussle"]
-  
   array.push(string)
   
 end
 
 # unshift method
 def using_unshift(array,string)
-  
-  la_icons = ["KDot","Pac","Snoop","Hussle"]
   
   array.unshift(string)
   
@@ -19,16 +15,12 @@ end
 # pop method
 def using_pop(array)
   
-  la_icons = ["KDot","Pac","Snoop","Hussle"]
-  
   array.pop
   
 end
 
 # pop with arguments method
 def pop_with_args(array)
-  
-  la_icons = ["KDot","Pac","Snoop","Hussle"]
   
   array.pop(2)
   
@@ -37,8 +29,6 @@ end
 # shift method
 def using_shift(array)
   
-  la_icons = ["KDot","Pac","Snoop","Hussle"]
-  
   array.shift
 
 end 
@@ -46,16 +36,14 @@ end
 # shift with arguments method
 def shift_with_args(array)
   
-  la_icons = ["KDot","Pac","Snoop","Hussle"]
-  
   array.shift(2)
 
 end 
 
-# concatenate method ---failed
-def using_concat(la_icons,songs)
+# concatenate method 
+def using_concat(array,songs)
   
-  we_da_best = la_icons.concat(songs)
+  we_da_best = array.concat(songs)
   
 end 
 
