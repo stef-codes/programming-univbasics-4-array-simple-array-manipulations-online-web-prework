@@ -97,8 +97,6 @@ end
 # delete_at method ---failed
 def using_delete_at(array,integer)
   
-  la_icons = ["KDot","Pac","Snoop","Hussle","Pac"]
-  
   array.delete_at[integer]
 
 end
