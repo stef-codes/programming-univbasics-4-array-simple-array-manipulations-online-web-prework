@@ -97,6 +97,6 @@ end
 # delete_at method ---failed
 def using_delete_at(array,integer)
   
-  array.delete_at[integer]
+  array.delete_at(integer)
 
 end
