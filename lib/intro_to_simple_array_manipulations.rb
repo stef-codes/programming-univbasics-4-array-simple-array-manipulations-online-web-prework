@@ -81,12 +81,6 @@ end
 
 def using_flatten(array) 
   
-  la_icons = ["KDot","Pac","Snoop","Hussle","Pac"]
-  
-  songs = ["GKMC","Motivate","Doggystyle"]
-  
-  array = [la_icons,songs]
-  
   array.flatten
   
 end 
